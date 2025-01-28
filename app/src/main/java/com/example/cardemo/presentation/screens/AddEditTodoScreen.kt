@@ -36,6 +36,6 @@ fun AddEditTodoScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "result.error")
+        Text(text = "Details Screen")
     }
 }

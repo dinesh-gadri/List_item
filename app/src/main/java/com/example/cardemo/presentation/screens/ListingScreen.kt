@@ -58,8 +58,6 @@ fun CarListingScreen(
                 items(it) { item ->
                     CarRowItem(item) { product ->
                         viewModel.onEvent(TodoListEvent.OnTodoClick(product))
-
-                        Toast.makeText(context, product.title, Toast.LENGTH_SHORT).show()
                     }
                 }
             }
